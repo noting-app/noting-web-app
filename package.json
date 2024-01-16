@@ -1,0 +1,28 @@
+{
+  "name": "noting-web-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solid-primitives/date": "^2.0.18",
+    "@solid-primitives/i18n": "^2.0.0",
+    "@solid-primitives/media": "^2.2.5",
+    "@solidjs/router": "^0.10.9",
+    "solid-js": "^1.8.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-pwa": "^0.17.4",
+    "vite-plugin-solid": "^2.8.0",
+    "workbox-window": "^7.0.0",
+    "zlib": "^1.0.5"
+  }
+}
